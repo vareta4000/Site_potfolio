@@ -1,0 +1,24 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(209, 160, 255);
+}
+
+.login{
+    width: 420px;
+    background-color: purple;
+    color: white;
+}
+
+.login h1{
+    font-size: 36px;
+}
