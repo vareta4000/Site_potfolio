@@ -21,4 +21,9 @@ body{
 
 .login h1{
     font-size: 36px;
+    text-align: center;
+}
+
+.login .input{
+    width: 100;
 }

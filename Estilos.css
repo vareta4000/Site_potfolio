@@ -13,4 +13,14 @@ body{
         border-width: 7px;
         border-radius: 10px;
         box-shadow: 10px 10px grey;
+        padding: 30px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+}
+
+.artigo-principal{
+    width: 1000px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 10px;
 }
