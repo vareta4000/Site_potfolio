@@ -10,14 +10,19 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: rgb(209, 160, 255);
+    background: url(imagens/5963194.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .login{
     width: 420px;
-    background-color: purple;
+    border: 2px solid gray;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: white;
     border-radius: 10px;
+    padding: 30px 40px;
 }
 
 .login h1{
