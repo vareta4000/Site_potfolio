@@ -5,23 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Portfólio</title>
     <link rel="stylesheet" href="Login_estilo.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <div class="login">
         <h1>Login</h1>
         <form action="">
-            <div class="input">
+            <!--usuario e senha-->
+            <div class="input"> 
                 <input type="text" placeholder="Usuario" required>
+                <i class='bx bxs-user'></i>
             </div>
 
             <div class="input">
                 <input type="password" placeholder="Senha" required>
+                <i class='bx bxs-lock-alt' ></i>
             </div>
-            <div class="relembrar_senha">
+
+            <!--botões para lembrar a senha e de registro-->
+            <div class="relembrar_senha"> 
                 <label for=""><input type="checkbox"> relembre-me</label>
                 <a href="#">esqueceu a senha?</a>
             </div>
+
             <button type="submit">Login</button>
+
+            <div class="registro">
+                <p>não tem uma conta?
+                <a href="#">Registre-se.</a></p>
+            </div>
         </form>
     </div>
 </body>
