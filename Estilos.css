@@ -1,8 +1,14 @@
-/* colocar estilos aq */
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
+    text-align: center;
+    border: 10px solid black;
+    border-style: solid initial;
+    border-width: 7px;
+    border-radius: 10px;
+    box-shadow: 10px 10px grey;
+   
 }
 
 header{
