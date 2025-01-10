@@ -7,21 +7,31 @@ body{
     background-attachment: fixed;
     backdrop-filter: blur(5px);
 }
-    header{
-        text-align: center;
-        background-color: white;
-        text-align: center;
-        border: 10px solid black;
-        border-style: solid initial;
-        border-width: 7px;
-        border-radius: 10px;
-        box-shadow: 10px 10px grey;
-        padding: 30px;
-        margin-top: 0px;
-        margin-bottom: 50px;
-        
+header{
+    background-color: white;
+    border: 10px solid black;
+    border-style: solid initial;
+    border-width: 7px;
+    border-radius: 10px;
+    box-shadow: 10px 10px grey;
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: 50px;  
 }
-
+h1{
+    text-align: center;
+}
+header .link{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(20, 20, 20);
+    padding: 8px;
+    border-radius: 6px;
+    margin: 2px;
+}
+.link:hover{
+    text-decoration: underline;
+}
 .artigo-principal{
     width: 1000px;
     margin: auto;
@@ -31,8 +41,7 @@ body{
     font-size: 21px;
     display: flex;
     position: relative;
-   background-color: rgba(223, 255, 186, 0.466);
-   height: 1500px;
-   
+    background-color: rgba(223, 255, 186, 0.466);
+    height: 1500px;
 }
 
