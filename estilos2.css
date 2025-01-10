@@ -1,6 +1,8 @@
 body{
+}
 
-
+h1{
+  text-align: center;
 }
 
 .artigo-principals{
@@ -12,9 +14,9 @@ body{
   font-size: 21px;
   display: flex;
   position: relative;
- background-color: rgba(223, 255, 186, 0.466);
- height: auto;
-
+  background-color: rgba(223, 255, 186, 0.466);
+  height: auto;
+  margin: auto;
 }
 
 
