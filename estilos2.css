@@ -1,0 +1,22 @@
+body{
+
+
+}
+
+.artigo-principals{
+  width: 500px;
+  margin: right;
+  background-color: rgb(160, 160, 247);
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 21px;
+  display: flex;
+  position: relative;
+ background-color: rgba(223, 255, 186, 0.466);
+ height: auto;
+
+}
+
+
+
+

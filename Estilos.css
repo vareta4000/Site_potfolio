@@ -26,13 +26,22 @@ body{
     width: 1000px;
     margin: auto;
     background-color: rgb(160, 160, 247);
-    padding: 10px;
+    padding: 15px;
     border-radius: 20px;
     font-size: 21px;
     display: flex;
     position: relative;
    background-color: rgba(223, 255, 186, 0.466);
-   height: 1500px;
+   height: auto;
    
 }
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: blue;
+}
+
 
