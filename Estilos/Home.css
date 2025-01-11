@@ -1,0 +1,41 @@
+/*Sinta o MEDO*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../imagens/wpp07.jpg);
+    background-position: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: rgb(202, 202, 255);
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+header h1{
+    text-align: center;
+}
+
+header .link{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(20, 20, 20);
+    padding: 8px;
+    border-radius: 6px;
+    margin: 2px;
+}
+
+main .artigo{
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin-top: 10px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
